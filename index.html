@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KASPER templet 2</title>
+
+ <!-- render all  elemnt normally  -->
+ <link rel="stylesheet" href="CSS/normalize.css">
+ <!-- font awsam libray  -->
+ <link rel="stylesheet" href="CSS/all.min.css">
+<!-- main templet scc  -->
+<link rel="stylesheet" href="CSS/kasper.css">
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:ital,wght@0,200;0,300;0,600;0,800;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- strat header -->
+<header>
+    <div class="container">
+        <a href="#" class="logo">
+            <img src="image/logo.png" alt="logo">
+        </a>
+        <nav>
+            <i class="fa-solid fa-bars toggle-menu"></i>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+             <div class="form">
+                <i class="fas fa-search"></i>
+            </div>
+        </nav>
+
+    </div>
+
+ </header>  
+    <!-- end header -->
+    <div class="scroll-to-top" onclick="topFunction()" style="display: block" id="myBtn" title="Go to top";><span></span></div>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        
+
+    <!-- Strat landing  -->
+    <div class="landing">
+        <div class="overlay"></div>
+        <div class="text">
+            <div class="content">
+                <h2>Hello world <br/>
+                We are casper we make art </h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+        </div>
+    
+    <i class="fas fa-angle-left change-background fa-x2 "></i>
+    <i class="fas fa-angle-right change-background fa-x2 "></i>
+    <ul class="bullet">
+        <li></li>
+        <li class="active"></li>
+        <li></li>
+    </ul>
+    </div>
+    <!-- end landing  -->
+    
+    <!-- strat Services <section -->
+        <div class="Services" id="services">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut qui distinctio nulla earum pariatur nobis nam architecto 
+                        consequatur dicta, amet accusamus natus odit beatae</p>
+                </div>
+                <div class="services-container">
+                    <div class="serv-box">
+                        <i class="fa-solid fa-desktop fa-3x"></i>
+                        <div class="text">
+                            <h3> Desktop lorem</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,
+                                 voluptatum nam. Nostrum obcaecati quos optio nam laborum eligendi!</p>
+                        </div>
+
+                    </div>
+                    <div class="serv-box">
+                        <i class="fas fa-camera-retro fa-3x"></i>
+                        <div class="text">
+                            <h3> Desktop lorem</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,
+                                 voluptatum nam. Nostrum obcaecati quos optio nam laborum eligendi!</p>
+                        </div>
+
+                    </div>
+                    <div class="serv-box">
+                        <i class="fas fa-pen-to-square fa-3x"></i>
+                        <div class="text">
+                            <h3> Desktop lorem</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,
+                                 voluptatum nam. Nostrum obcaecati quos optio nam laborum eligendi!</p>
+                        </div>
+
+                    </div>
+                    <div class="serv-box">
+                        <i class="fa-regular fa-pen-to-square fa-3x"></i>
+                        <div class="text">
+                            <h3> Desktop lorem</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,
+                                 voluptatum nam. Nostrum obcaecati quos optio nam laborum eligendi!</p>
+                        </div>
+
+                    </div>
+                    
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+    <!-- end Services <section -->
+
+        <!-- strat disegn -->
+        <div class="desgin">
+            <div class="image"><img src="image/mobilPNG.png" alt="mobil-phone">
+            </div>
+            
+            <div class="text">
+                <h2>Our desgin come with..</h2>
+                <ul>
+                    <li>Rsponsive desgien</li>
+                    <li>Modern and clen desgien</li>
+                    <li>Clean code</li>
+                    <li>Browser frendly</li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- end disegn -->
+        <!-- strat Portfolio -->
+            <div class="portfolio" id="portfolio">
+                <div class="container">
+                    <div class="main-heading">
+                        <h2>portfolio</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut qui distinctio nulla earum pariatur nobis nam architecto 
+                            consequatur dicta, amet accusamus natus odit beatae</p>
+
+
+                    </div>
+                    <ul class="shuffle">
+                        <li class="active">All</li>
+                        <li>App</li>
+                        <li>photo</li>
+                        <li>web</li>
+                        <li>print</li>
+                        
+                    </ul>
+               </div>
+               <div class="image-countainer">
+                  <div class="box">
+                <img src="image/im.g1.jpg" alt="image-gallry">
+                    <div class="caption">
+                    <h4>Awasome-image</h4>
+                    <p>photografeic</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/im.g2.jpg" alt="image-gallry">
+                        <div class="caption">
+                        <h4>Awasome-image</h4>
+                        <p>photografeic</p>
+                        </div>
+                    </div>
+                     <div class="box">
+                        <img src="image/im.g3.jpg" alt="image-gallry">
+                            <div class="caption">
+                            <h4>Awasome-image</h4>
+                            <p>photografeic </p>
+                            </div>
+                        </div> 
+                        <div class="box">
+                            <img src="image/im.g4.JPG" alt="image-gallry">
+                                <div class="caption">
+                                <h4>Awasome-image</h4>
+                                <p>photografeic </p>
+                                </div>
+                            </div> 
+                            <div class="box">
+                                <img src="image/im.g5.jpg" alt="image-gallry">
+                                    <div class="caption">
+                                    <h4>Awasome-image</h4>
+                                    <p>photografeic </p>
+                                    </div>
+                                </div>
+                                 <div class="box">
+                                    <img src="image/im.g6.jpg" alt="image-gallry">
+                                        <div class="caption">
+                                        <h4>Awasome-image</h4>
+                                        <p>photografeic </p>
+                                        </div>
+                                    </div> 
+                                    <div class="box">
+                                        <img src="image/im.g7.jpg" alt="image-gallry">
+                                            <div class="caption">
+                                            <h4>Awasome-image</h4>
+                                            <p>photografeic </p>
+                                            </div>
+                                        </div> 
+                                        <div class="box">
+                                            <img src="image/im.g8.jpg" alt="image-gallry">
+                                                <div class="caption">
+                                                <h4>Awasome-image</h4>
+                                                <p>photografeic </p>
+                                                </div>
+                                                
+                                            </div>
+                                            <a href="#" class="more">More</a>
+               </div>
+            </div>
+        <!-- end Portfolio -->
+        <!-- strat video  -->
+        <div class="video">
+            <video autoplay muted loop src="video/Creative_2.mp4" 
+            type="video/mp4" ></video>
+            <div class="text">
+                <h2>Super awasome vedio</h2>
+                <p>its all what you neeed </p>
+                <button>see more</button>
+
+            </div>
+
+        </div>
+        <!-- end video  -->
+
+        <!-- start About -->
+        <div class="about" id="about">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut qui distinctio nulla earum pariatur nobis nam architecto 
+                        consequatur dicta, amet accusamus natus odit beatae</p>
+                </div>
+               
+           </div>
+           <img src="image/about img .png" alt="">
+        </div>
+        <!-- end  About -->
+        <!-- strat stats -->
+        <div class="stats">
+            <div class="container">
+                <div class="box">
+                    <i class= "fas fa-mug-hot"></i>
+                    <div class="number">1.68</div>
+                    <p>Coffe Drinks</p>
+
+                </div>
+                <div class="box">
+                    <i class= "far fa-folder"></i>
+                    <div class="number">256</div>
+                    <p>Completed Projects</p>
+
+                </div>
+                <div class="box">
+                    <i class= "far fa-envelope"></i>
+                    <div class="number">1.73</div>
+                    <p>Mail Sent</p>
+
+                </div>
+                <div class="box">
+                    <i class= "fas fa-trophy"></i>
+                    <div class="number">17</div>
+                    <p>Awards Received</p>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- end stats -->
+
+        <!-- strat skils sec -->
+            <div class="our-skils">
+                <div class="container">
+                    <div class="testimonials">
+                        <h3>Testimonials</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <div class="content">
+                            <img src="image/skilss 1.jpg" alt="">
+                             <div class="text">
+                                Curabitur arcu erat, accumsan id imperdiet et,
+                                 porttitor at sem. Mauris blandit aliquet elit, eget
+
+                                <p>John Haward</p>
+                             </div>
+                        </div>
+                        <div class="content">
+                            <img src="image/skilss 2.jpg" alt="">
+                             <div class="text">
+                                Curabitur arcu erat, accumsan id imperdiet et,
+                                 porttitor at sem. Mauris blandit aliquet elit, eget
+
+                                <p>Mike Sami, ceo</p>
+                             </div>
+                        </div>
+                        <ul class="bullets">
+                            <li></li>
+                            <li class="active"></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <div class="prog-holder">
+                            <h4>ADOP</h4>
+                            <div class="prog">
+                                <span style="width:90% " data-progress="90%"></span>
+                            </div>
+                        </div>
+                        <div class="prog-holder">
+                            <h4>Html</h4>
+                            <div class="prog">
+                                <span style="width:85%" data-progress= "85%"></span>
+                            </div>
+                        </div>
+                        <div class="prog-holder">
+                            <h4>JavaScript</h4>
+                            <div class="prog">
+                                <span style="width:74%" data-progress="74%"></span>
+                            </div>
+                        </div>
+                        <div class="prog-holder">
+                            <h4>Php</h4>
+                            <div class="prog">
+                                <span style="width:65%" data-progress="65%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        <!-- end skils sec -->
+        <!-- strat qout -->
+        <div class="qoute">
+            <div class="container">
+                <q>Lorem ipsum dolor sit,  Ipsum velit aliquam, onsequuntur consequatur aperiam.</q>
+                <span> John. H</span>
+            </div>
+
+        </div>
+        <!-- end qout -->
+        <!-- stat Pricing -->
+        <div class="pricing" id="pricing">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Pricing</h2>
+                    <p>Lorem ipsum dolor sidistinctio culpa illo pariatur sequi cumque molestiae natus! Accusantium, saepe!</p>
+                </div>
+                <div class="plans">
+                    <div class="plan">
+                        <div class="head">
+                            <h3>Basic</h3>
+                            <span>19</span>
+                        </div>
+                       <ul>
+                        <li>Future </li>
+                        <li>fure 244</li>
+                        <li>go ahead</li>
+                        <li>go ahead</li>
+                       </ul>
+                       <div class="foot">
+                        <a href="#"> Buy Now</a>
+                       </div>
+
+                    </div>
+                    <div class="plan">
+                        <div class="head">
+                            <h3>primum</h3>
+                            <span>49</span>
+                        </div>
+                       <ul>
+                        <li>Future </li>
+                        <li>fure-pro</li>
+                        <li>fure-pro2</li>
+                        <li>fure-pro3</li>
+                        
+                       </ul>
+                       <div class="foot">
+                        <a href="#"> Buy Now</a>
+                       </div>
+
+                    </div>
+                    <div class="plan">
+                        <div class="head">
+                            <h3>pro</h3>
+                            <span>99</span>
+                        </div>
+                       <ul>
+                        <li>Future </li>
+                        <li>fure 244</li>
+                        <li>go ahead</li>
+                        <li>go ahead</li>
+                       </ul>
+                       <div class="foot">
+                        <a href="#"> Buy Now</a>
+                       </div>
+
+                    </div>
+                    <div class="plan">
+                        <div class="head">
+                            <h3>Platinum</h3>
+                            <span>149</span>
+                        </div>
+                       <ul>
+                        <li>Future </li>
+                        <li>fure 244</li>
+                        <li>go ahead</li>
+                        <li>go ahead</li>
+                       </ul>
+                       <div class="foot">
+                        <a href="#">Buy Now</a>
+                       </div>
+
+                    </div>
+                
+                    </div>
+                    <p class="contact-us"> fell free to contact us </p>
+                    <div class="Contact-LINKS"><a href="#">Contact-Us</a></div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- end Pricing -->
+        <!-- strat subscribe -->
+        <div class="subscribe">
+            <div class="container">
+                <form action="">
+                    <i class="far fa-envelope fa-lg"></i>
+                    <input class="email" type="email" name="email" id="email" placeholder="Your email">
+                    <input  class="submit" type="submit" value="subscribe">
+                </form>
+                <p class="sub-ph">Lorem ipsum dolor sit elitdeserunt inventore quas. Dolor,
+                     voluptatum atque.</p>
+            </div>
+        </div>
+
+        <!-- end subscribe -->
+        <!-- strat contact-sec -->
+        <div class="contact">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Contact</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut qui distinctio nulla earum pariatur nobis nam architecto 
+                        consequatur dicta, amet accusamus natus odit beatae</p>
+                </div> 
+                <div class="content">
+                    <form action="">
+                        <input class="main-input" type="text" name="name" placeholder="Mike .H">
+                        <input class="main-input" type="email" name="email" placeholder="maik.h@sss.com">
+                        <textarea class="main-input" name="message"  placeholder="Type your message"></textarea>
+                        <input type="submit" value="Send Message">
+
+                    </form>
+                    <div class="info">
+                        <h4>Get In Touch</h4>
+                        <span class="phone">+00 123.456.789</span>
+                        <span class="phone">+00 123.456.999</span>
+                        <h4>Where We Are</h4>
+                        <address>Awesome Address 17<br />New York, NYC<br />123-4567-890<br />USA</address>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end contact-sec -->
+<!-- strat footer  -->
+<div class="footer">
+    <div class="container">
+       <div class="logo"><img src="image/logo.png" alt="logo-pic"></div> 
+        <p>We are soical</p>
+        <div class="social-i">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fas fa-home"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p class="copyright"> &copy; 2023 <span>kasper</span> All right is reserve </p>
+    </div>
+</div>
+<!-- end footer  -->
+
+</body>
+</html>
